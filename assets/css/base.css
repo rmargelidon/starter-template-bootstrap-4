@@ -1,0 +1,156 @@
+::-moz-selection {
+    color: #fff; background: #0099e6;
+}
+
+::selection {
+    color: #fff; background: #0099e6;
+}
+
+
+body {
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0099e6;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus {
+    color: #0099e6;
+}
+
+.message {
+    padding: 0.35rem 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-top: 20px;
+}
+
+.error {
+    background-color: #f2dede;
+    border-color: #ebcccc;
+    color: #a94442;
+}
+
+.success {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
+}
+
+#bio {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url('../img/fond.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    color: #fff;
+}
+
+#bio hr {
+    border-color: #fff;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+#intro {
+    margin-bottom: 50px;
+}
+
+a {
+    color: #0099e6;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section hr {
+    border-color: #0099e6;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+h2, aside {
+    text-align: center;
+}
+
+aside {
+    margin-bottom: 40px;
+}
+
+.spacer {
+    border-top: 2px solid #0099e6;
+}
+
+.xp {
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.xp-text {
+    opacity: 0;
+    color: #fff;
+    background-color: rgba(0, 153, 230, 0.80);
+    text-align: center;
+    padding-top: 40px;
+    height: 250px;
+    transition: all 300ms ease-out;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.xp-text:hover {
+    opacity: 1;
+    transition: all 300ms ease-out;
+}
+
+.xp-text hr {
+    border-color: #fff;
+    max-width: 80px;
+}
+
+.last {
+    background-size: cover;
+    background-position: center center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-attachment: fixed;
+}
+
+.last ul {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.last ul li {
+    display: inline;
+    padding: 25px;
+}
+
+.last ul li .fa {
+    font-size: 50px;
+}
+.last ul li .fa:hover {
+    color: #fff;
+}
+
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color:#0099e6;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    font-size: 14px;
+}
+
+footer a, footer a:hover {
+    color: #fff;
+}
